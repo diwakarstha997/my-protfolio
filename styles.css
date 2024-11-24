@@ -1,0 +1,55 @@
+/* CSS Theme */
+:root {
+  /* colors */
+  --bg-color: #bde7fd;
+  --primary-color: #ff4600;
+  --text-color: black;
+  --border-color: black;
+  --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Navbar */
+.navbar-container {
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+
+.logo-name {
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.line {
+  color: var(--primary-color);
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.nav-items {
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-items a:hover {
+  cursor: pointer;
+}

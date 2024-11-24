@@ -185,10 +185,6 @@ body {
     left: calc(100vw - 250px);
   }
 
-  /* #hamburger-menu:not(:checked) + .side-menu {
-    left: calc();
-  } */
-
   /* Alternative approach */
   /* #hamburger-menu:checked + .side-menu {
     display: block;

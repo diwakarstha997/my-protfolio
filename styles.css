@@ -81,6 +81,49 @@ body {
   display: none;
 }
 
+/* Hero Section */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.hero-section {
+  background-color: rgb(34, 97, 34);
+  border-radius: 12px;
+  max-height: 60vh;
+
+  margin: 4rem 12px;
+}
+
+.intro-text {
+  color: white;
+  padding: 8px;
+}
+
+.download-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 24px;
+  margin-top: 2rem;
+}
+
+.download-btn:hover {
+  cursor: pointer;
+}
+
+.profile-image {
+  margin: -3rem;
+}
+
+.profile-image img {
+  height: 100%;
+  width: 80%;
+}
+
 /* mobile only css */
 /* side menu */
 @media (max-width: 872px) {

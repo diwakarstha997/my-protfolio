@@ -157,7 +157,7 @@ body {
 
 /* Skill Section */
 .skills-section {
-  margin: 48px;
+  margin: 12px;
 }
 
 .skills-container {
@@ -174,6 +174,45 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* Related Work Section */
+.work-container {
+  margin: 12px;
+}
+
+.card-wrapper {
+  flex-wrap: wrap;
+  gap: 24px;
+
+  padding: 24px;
+}
+
+/* Work Card */
+.work-card {
+  box-shadow: var(--box-shadow);
+  border-radius: 12px;
+}
+
+.work-card-img-box {
+  max-width: 15vw;
+}
+
+.work-card-img-box img {
+  border-radius: 12px;
+}
+
+.work-card-body {
+  margin: 12px;
+}
+
+.work-link {
+  text-align: center;
+}
+
+.work-link > a {
+  text-decoration: none;
+}
+
 
 /* mobile only css */
 /* side menu */

@@ -19,7 +19,6 @@ body {
   justify-content: center;
   align-items: center;
   gap: 12px;
-  flex-wrap: wrap;
 }
 
 .section-heading {
@@ -211,6 +210,32 @@ body {
 
 .work-link > a {
   text-decoration: none;
+}
+
+/* About Section */
+.about-container {
+  background-color: #ff440067;
+  padding: 24px;
+}
+
+.about-body {
+  padding: 24px;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap:48px;
+}
+
+.about-img-box {
+  max-width: 30rem;
+}
+
+.about-img-box > img {
+  border-radius: 50%;
+}
+
+.about-title {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 

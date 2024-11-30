@@ -6,6 +6,7 @@
   --text-color: black;
   --border-color: black;
   --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
+  
 }
 
 body {
@@ -237,6 +238,35 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
+
+/* Contact Section */
+.contact-container {
+  text-align: center;
+  margin: 12px;
+}
+
+.contact-container div {
+  margin-bottom: 48px;
+}
+
+.contact-social {
+  font-size: 48px;
+  justify-content: space-around;
+}
+
+.email-btn{
+  background-color: black;
+  color: white;
+  padding: 20px;border-radius: 50px;
+  text-decoration: none;
+  
+}
+
+.email i {
+  color: var(--primary-color);
+  margin: 12px
+}
+
 
 
 /* mobile only css */
